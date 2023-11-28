@@ -1,7 +1,6 @@
 package br.com.pokemon.type.config;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer;
 import org.springframework.security.core.userdetails.User;
@@ -11,7 +10,6 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
-@Configuration
 @EnableWebSecurity
 @EnableResourceServer
 @EnableAuthorizationServer
